@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+.pokecard-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    width:100%;
+    gap:1em;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    .pokecard-container {
+        gap: 2em;
+    }
+}
+
+
+.card {
+    width: 30%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color: #c3beff4a;
+}
+
+.id-card {
+    font-size:10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    text-decoration: none;
+    border: 1px solid #4169E1;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    color: #4169E1;
+}
+
+.img-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #4169E1;
+    border-right: 1px solid #4169E1;
+}
+
+.img-card {
+    width:85%;
+    padding: 0 5px;
+}
+
+.name-card{
+    color:white;
+    text-align: center;
+    font-size:12px;
+    width:100%;
+    border-radius: 0 0 10px 10px;
+    background-color: #4169E1
+}
+
+a {
+    text-decoration: none;
+}
+

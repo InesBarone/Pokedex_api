@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+.Pokebio-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #4169e1b0;
+    margin-bottom: -50px;
+}
+
+.pokebio-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    padding:20px;
+}
+
+.arrow-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow-left {
+    width:30px;
+    fill: currentColor white;
+}
+
+h2.name-pokemon {
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    border:none;
+    font-weight:700;
+    font-size: 16px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-pokebola {
+    position: absolute;
+    top: 35px;
+    right:5%;
+    opacity: 0.2;
+}
+
+.pokePhoto-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: relative;
+    top: 25px;
+    height:25vh;
+    z-index:2;
+    align-items: center;
+}
+.arrow-button2 {
+    background:none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.pokePhoto {
+    max-width: 300px;
+}
+
+@media (min-width:400px) {
+    .pokePhoto {
+        position: relative;
+        top:-30px    }
+    .img-pokebola {
+            left:60%;
+        }
+
+}
