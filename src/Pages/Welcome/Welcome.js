@@ -9,7 +9,10 @@ export default function Welcome() {
       <Link to="/pokemones">
         <button className="more go-button">
           IR A LA POKEDEX
-          <img src="./Images/arrow-right-w.svg" className="arrow-right" />
+          <img
+            src="../../../public/Images/arrow-right-w.svg"
+            className="arrow-right"
+          />
         </button>
       </Link>
       <div className="wallpaper-logo-container">
