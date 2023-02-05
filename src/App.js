@@ -97,7 +97,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Pokedex_api">
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route
