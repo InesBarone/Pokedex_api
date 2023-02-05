@@ -1,15 +1,26 @@
 {
-    "files": {
-      "main.css": "/Pokedex_api/static/css/main.6988b0c8.css",
-      "main.js": "/Pokedex_api/static/js/main.ecb02074.js",
-      "static/media/welcomeD.jpg": "/Pokedex_api/static/media/welcomeD.2906bb9a5575495b1e2f.jpg",
-      "static/media/welcome.jpg": "/Pokedex_api/static/media/welcome.9217314ef45d3c59fbe8.jpg",
-      "index.html": "/Pokedex_api/index.html",
-      "main.6988b0c8.css.map": "/Pokedex_api/static/css/main.6988b0c8.css.map",
-      "main.ecb02074.js.map": "/Pokedex_api/static/js/main.ecb02074.js.map"
-    },
-    "entrypoints": [
-      "static/css/main.6988b0c8.css",
-      "static/js/main.ecb02074.js"
-    ]
+    "short_name": "Pokedex_api",
+    "name": "Create React App Sample",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
   }
+  
