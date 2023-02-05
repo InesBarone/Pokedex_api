@@ -30,7 +30,7 @@ export default function Pokestats({ info }) {
         <div className="physics-container">
           <div className="img-values">
             <img
-              src="/Images/Weight.svg"
+              src="./Images/Weight.svg"
               alt="weight-pic"
               className="weight-pic"
             />
@@ -42,7 +42,7 @@ export default function Pokestats({ info }) {
         <div className="physics-container">
           <div className="img-values">
             <img
-              src="/Images/Height.svg"
+              src="./Images/Height.svg"
               alt="weight-pic"
               className="height-pic"
             />

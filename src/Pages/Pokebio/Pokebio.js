@@ -45,7 +45,7 @@ export default function Pokebio({ pokeData, setPokeData, loading }) {
             <div className="arrow-name">
               <Link to="/pokemones">
                 <img
-                  src="./Images/arrow-left-w.svg"
+                  src="./Images/arrowleftw.svg"
                   className="arrow-left"
                   alt="Arrow left"
                 />
