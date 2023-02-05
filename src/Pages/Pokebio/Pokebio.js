@@ -45,7 +45,7 @@ export default function Pokebio({ pokeData, setPokeData, loading }) {
             <div className="arrow-name">
               <Link to="/pokemones">
                 <img
-                  src="/Images/arrow-left-w.svg"
+                  src="./Images/arrow-left-w.svg"
                   className="arrow-left"
                   alt="Arrow left"
                 />
@@ -54,7 +54,7 @@ export default function Pokebio({ pokeData, setPokeData, loading }) {
             </div>
             <div className="id">{info[0].id}</div>
           </div>
-          <img src="/Images/Pokeball (1).png" className="img-pokebola" />
+          <img src="./Images/Pokeball (1).png" className="img-pokebola" />
           <div className="pokePhoto-container">
             <Link to={`/pokemon/${changePokemonLeft()}`}>
               <button className="arrow-button2">{"<"}</button>

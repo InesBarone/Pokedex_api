@@ -22,7 +22,7 @@ export default function Principal({
 
   //arrows es un vector que contiene la ruta a las imágenes de flechas, la primera
   //hacia abajo, y la segunda hacia arriba
-  let arrows = ["/Images/Arrow.svg", "/Images/Vector.png"];
+  let arrows = ["./Images/Arrow.svg", "./Images/Vector.png"];
 
   //imgArrows es un estado que alternará entre los dos valoresde arrows, y se mostrará
   //su valor en el botón de la flecha
@@ -95,11 +95,11 @@ export default function Principal({
       <header>
         <div className="header-1">
           <Link to="/">
-            <img src="/Images/arrow-left.svg" alt="Logo pokebola" />
+            <img src="./Images/arrow-left.svg" alt="Logo pokebola" />
           </Link>
           <div className="logo-title">
             <img
-              src="/Images/Pokeball.png"
+              src="./Images/Pokeball.png"
               className="logo"
               alt="Logo pokebola"
             />
